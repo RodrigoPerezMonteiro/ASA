@@ -66,10 +66,10 @@ void returnOutput();
 ////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////Main//////////////////////////////////
-//                					                                          //
+//                					              //
 //              Calls all functions that are needed to                //
 //                        get the right result                        //
-//                					                                          //
+//                					              //
 ////////////////////////////////////////////////////////////////////////
 
 int main(void){
@@ -97,9 +97,9 @@ int main(void){
 }
 
 /////////////////////////////InitGraph//////////////////////////////////
-//                					                                          //
+//                					              //
 //             Initializes and fills structure graph                  //
-//                					                                          //
+//                					              //
 ////////////////////////////////////////////////////////////////////////
 
 void initGraph(){
@@ -127,9 +127,9 @@ void initGraph(){
 }
 
 /////////////////////////InitCriticalSpotsList//////////////////////////
-//                					                                          //
+//                					              //
 //    Initializes, reserves memory and fills Critical Spots List      //
-//                					                                          //
+//                					              //
 ////////////////////////////////////////////////////////////////////////
 
 void initCriticalSpotsList(){
@@ -150,9 +150,9 @@ void initCriticalSpotsList(){
 }
 
 //////////////////////////InitStoppedConnections////////////////////////
-//                					                                          //
+//                					              //
 //                 Initializes Stopped Connections List               //
-//                					                                          //
+//                					              //
 ////////////////////////////////////////////////////////////////////////
 
 void initStoppedConnectionsList(){
@@ -236,9 +236,9 @@ int edmondsKarp(int source, int target){
 }
 
 ////////////////////////////CleanMatrix/////////////////////////////////
-//                					                                          //
+//                					              //
 //              Resets all matrix values to default                   //
-//                					                                          //
+//                					              //
 ////////////////////////////////////////////////////////////////////////
 
 void cleanMatrix(){
@@ -258,10 +258,10 @@ void cleanMatrix(){
 }
 
 ////////////////////////////ComputeResults//////////////////////////////
-//                					                                          //
+//                					              //
 //                        Executes algorithms                         //
 //                   Fills structures with results                    //
-//                					                                          //
+//                					              //
 ////////////////////////////////////////////////////////////////////////
 
 void computeResults(){
@@ -285,10 +285,10 @@ void computeResults(){
 }
 
 /////////////////////////////ReturnOutput///////////////////////////////
-//                					                                          //
+//                					              //
 //                        Prints the results:                         //
-//                        Stopped Connections		                      //
-//                					                                          //
+//                        Stopped Connections		              //
+//                					              //
 ////////////////////////////////////////////////////////////////////////
 
 void returnOutput(){
